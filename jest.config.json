@@ -1,0 +1,42 @@
+{
+  "verbose": false,
+  "testURL": "http://ship.local-freightos.com",
+  "snapshotSerializers": [
+    "<rootDir>\/node_modules\/enzyme-to-json\/serializer"
+  ],
+  "collectCoverage": false,
+  "collectCoverageFrom": [
+    "src\/**\/*.jsx",
+    "src\/**\/{*saga*,*utils*}",
+    "!src\/App.jsx",
+    "!src\/Main.jsx",
+    "!src\/translations\/**"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "branches": 80,
+      "functions": 80,
+      "lines": 80,
+      "statements": 50
+    }
+  },
+  "coveragePathIgnorePatterns": [
+    "<rootDir>\/jspm_packages\/",
+    "<rootDir>\/node_modules"
+  ],
+  "setupFiles": [
+    "./test/setup.js"
+  ],
+  "testRegex": "src\/.*.spec\\.js$",
+  "rootDir": ".\/",
+  "modulePaths": [
+    ".\/"
+  ],
+  "transform": {
+    ".*": ".\/node_modules\/babel-jest"
+  },
+  "moduleNameMapper": {
+    "^.+\\.(less|css|scss)$": "identity-obj-proxy",
+    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>\/test\/assetMock.js"
+  }
+}

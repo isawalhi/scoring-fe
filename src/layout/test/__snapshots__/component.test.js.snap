@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<Layout
+  className="appContainer"
+>
+  <Header>
+    <div
+      className="pageLogo"
+    />
+    <Menu
+      defaultSelectedKeys={
+        Array [
+          "1",
+        ]
+      }
+      mode="horizontal"
+      theme="dark"
+    >
+      <MenuItem
+        key="/all-time"
+      >
+        <Link
+          to="/all-time"
+        >
+          All Times
+        </Link>
+      </MenuItem>
+      <MenuItem
+        key="/add-game"
+      >
+        <Link
+          to="/add-game"
+        >
+          Add new game
+        </Link>
+      </MenuItem>
+    </Menu>
+  </Header>
+  <Content
+    className="pageContent"
+  />
+  <Footer
+    className="pageFooter"
+    theme="dark"
+  >
+    Scopely ©2020 Created by Sawalhi
+  </Footer>
+</Layout>
+`;

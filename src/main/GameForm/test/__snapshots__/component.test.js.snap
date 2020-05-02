@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<ForwardRef(InternalForm)
+  onFinish={[Function]}
+  onFinishFailed={[Function]}
+>
+  <FormItem
+    label="1st Place"
+    name="firstPlace"
+    rules={
+      Array [
+        Object {
+          "message": "Please input first place player!",
+          "required": true,
+        },
+      ]
+    }
+  >
+    <Input
+      type="text"
+    />
+  </FormItem>
+  <FormItem
+    label="2nd Place"
+    name="secondPlace"
+    rules={
+      Array [
+        Object {
+          "message": "Please input first place player!",
+          "required": true,
+        },
+      ]
+    }
+  >
+    <Input
+      type="text"
+    />
+  </FormItem>
+  <FormItem
+    label="3rd Place"
+    name="thirdPlace"
+  >
+    <Input
+      type="text"
+    />
+  </FormItem>
+  <FormItem
+    label="4th Place"
+    name="forthPlace"
+  >
+    <Input
+      type="text"
+    />
+  </FormItem>
+  <FormItem>
+    <Button
+      block={false}
+      ghost={false}
+      htmlType="submit"
+      loading={false}
+      type="primary"
+    >
+      Submit
+    </Button>
+  </FormItem>
+</ForwardRef(InternalForm)>
+`;

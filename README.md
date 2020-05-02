@@ -1,29 +1,25 @@
-# README #
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## Available Scripts
 
-### What is this repository for? ###
+In the project directory, you can run:
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### `npm start`
 
-### How do I get set up? ###
+Runs the app in the development mode.<br />
+Open [http://localhost:3180](http://localhost:3180) to view it in the browser.
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-### Contribution guidelines ###
+### `npm test`
 
-* Writing tests
-* Code review
-* Other guidelines
+Launches the test runner in the interactive watch mode.<br />
 
-### Who do I talk to? ###
+### `npm run build`
 
-* Repo owner or admin
-* Other community or team contact
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!

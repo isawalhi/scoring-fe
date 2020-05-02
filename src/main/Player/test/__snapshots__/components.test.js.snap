@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders <LineChart /> 1`] = `
+<ResponsiveContainer
+  debounce={100}
+  height="60%"
+  width="60%"
+>
+  <LineChart
+    barCategoryGap="10%"
+    barGap={4}
+    layout="horizontal"
+    margin={
+      Object {
+        "bottom": 5,
+        "left": 10,
+        "right": 20,
+        "top": 20,
+      }
+    }
+    reverseStackOrder={false}
+    stackOffset="none"
+  >
+    <XAxis
+      allowDataOverflow={false}
+      allowDecimals={true}
+      allowDuplicatedCategory={true}
+      axisLine={true}
+      dataKey="createdAt"
+      domain={
+        Array [
+          0,
+          "auto",
+        ]
+      }
+      height={30}
+      hide={false}
+      mirror={false}
+      orientation="bottom"
+      padding={
+        Object {
+          "left": 0,
+          "right": 0,
+        }
+      }
+      reversed={false}
+      scale="auto"
+      tickCount={5}
+      tickLine={true}
+      type="category"
+      width={0}
+      xAxisId={0}
+    />
+    <YAxis
+      allowDataOverflow={false}
+      allowDecimals={true}
+      allowDuplicatedCategory={true}
+      axisLine={true}
+      domain={
+        Array [
+          0,
+          100,
+        ]
+      }
+      height={50}
+      hide={false}
+      mirror={false}
+      orientation="left"
+      padding={
+        Object {
+          "bottom": 0,
+          "top": 0,
+        }
+      }
+      reversed={false}
+      scale="auto"
+      tickCount={5}
+      tickLine={true}
+      tickMargin={25}
+      type="number"
+      width={60}
+      yAxisId={0}
+    />
+    <CartesianGrid
+      fill="none"
+      horizontal={true}
+      horizontalFill={Array []}
+      horizontalPoints={Array []}
+      stroke="#f5f5f5"
+      vertical={true}
+      verticalFill={Array []}
+      verticalPoints={Array []}
+    />
+    <Line
+      activeDot={true}
+      animateNewValues={true}
+      animationBegin={0}
+      animationDuration={1500}
+      animationEasing="ease"
+      connectNulls={false}
+      dataKey="score"
+      dot={true}
+      fill="#fff"
+      hide={false}
+      isAnimationActive={true}
+      legendType="line"
+      onAnimationEnd={[Function]}
+      onAnimationStart={[Function]}
+      points={Array []}
+      stroke="#ff7300"
+      strokeWidth={1}
+      type="monotone"
+      xAxisId={0}
+      yAxisId={0}
+    />
+  </LineChart>
+</ResponsiveContainer>
+`;
+
+exports[`renders <Player /> 1`] = `
+<div
+  className="playerContainer"
+>
+  <Card
+    bordered={false}
+  >
+    <p>
+      Number of played games: 
+    </p>
+    <p>
+      Player score: 
+    </p>
+    <p>
+      Last seen: 
+    </p>
+  </Card>
+  <Chart />
+</div>
+`;

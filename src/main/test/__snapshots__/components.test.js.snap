@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GameTable /> renders correctly - loading false - empty table 1`] = `
+<Table
+  columns={
+    Array [
+      Object {
+        "dataIndex": "name",
+        "key": "name",
+        "render": [Function],
+        "title": "Player Name",
+      },
+      Object {
+        "dataIndex": "numberOfGames",
+        "key": "numberOfGames",
+        "title": "Number of Games",
+      },
+      Object {
+        "dataIndex": "score",
+        "key": "score",
+        "title": "Score",
+      },
+    ]
+  }
+  dataSource={Array []}
+  loading={false}
+  pagination={
+    Object {
+      "pageSize": 10,
+    }
+  }
+  rowKey="key"
+/>
+`;
+
+exports[`<GameTable /> renders correctly - loading false - table with data  1`] = `
+<Table
+  columns={
+    Array [
+      Object {
+        "dataIndex": "name",
+        "key": "name",
+        "render": [Function],
+        "title": "Player Name",
+      },
+      Object {
+        "dataIndex": "numberOfGames",
+        "key": "numberOfGames",
+        "title": "Number of Games",
+      },
+      Object {
+        "dataIndex": "score",
+        "key": "score",
+        "title": "Score",
+      },
+    ]
+  }
+  dataSource={
+    Array [
+      Object {
+        "namberOfGames": 1,
+        "name": "ibrahim",
+        "score": 1400,
+        "scoreHistory": Array [
+          Object {},
+        ],
+      },
+      Object {
+        "namberOfGames": 1,
+        "name": "batoul",
+        "score": 1600,
+        "scoreHistory": Array [
+          Object {},
+        ],
+      },
+    ]
+  }
+  loading={false}
+  pagination={
+    Object {
+      "pageSize": 10,
+    }
+  }
+  rowKey="key"
+/>
+`;
+
+exports[`<GameTable /> renders correctly - loading true - empty table 1`] = `
+<Table
+  columns={
+    Array [
+      Object {
+        "dataIndex": "name",
+        "key": "name",
+        "render": [Function],
+        "title": "Player Name",
+      },
+      Object {
+        "dataIndex": "numberOfGames",
+        "key": "numberOfGames",
+        "title": "Number of Games",
+      },
+      Object {
+        "dataIndex": "score",
+        "key": "score",
+        "title": "Score",
+      },
+    ]
+  }
+  dataSource={Array []}
+  loading={true}
+  pagination={
+    Object {
+      "pageSize": 10,
+    }
+  }
+  rowKey="key"
+/>
+`;
+
+exports[`<GameTable /> renders correctly - loading true - table with data  1`] = `
+<Table
+  columns={
+    Array [
+      Object {
+        "dataIndex": "name",
+        "key": "name",
+        "render": [Function],
+        "title": "Player Name",
+      },
+      Object {
+        "dataIndex": "numberOfGames",
+        "key": "numberOfGames",
+        "title": "Number of Games",
+      },
+      Object {
+        "dataIndex": "score",
+        "key": "score",
+        "title": "Score",
+      },
+    ]
+  }
+  dataSource={
+    Array [
+      Object {
+        "namberOfGames": 1,
+        "name": "ibrahim",
+        "score": 1400,
+        "scoreHistory": Array [
+          Object {},
+        ],
+      },
+      Object {
+        "namberOfGames": 1,
+        "name": "batoul",
+        "score": 1600,
+        "scoreHistory": Array [
+          Object {},
+        ],
+      },
+    ]
+  }
+  loading={false}
+  pagination={
+    Object {
+      "pageSize": 10,
+    }
+  }
+  rowKey="key"
+/>
+`;

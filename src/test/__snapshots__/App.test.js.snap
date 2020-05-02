@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Connect(Layout)>
+      <Switch>
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.memo),
+              "WrappedComponent": [Function],
+              "compare": null,
+              "displayName": "Connect(GameTable)",
+              "type": [Function],
+            }
+          }
+          path="/all-time"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.memo),
+              "WrappedComponent": [Function],
+              "compare": null,
+              "displayName": "Connect(Player)",
+              "type": [Function],
+            }
+          }
+          path="/player/:id"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.memo),
+              "WrappedComponent": [Function],
+              "compare": null,
+              "displayName": "Connect(GameForm)",
+              "type": [Function],
+            }
+          }
+          path="/add-game"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.memo),
+              "WrappedComponent": [Function],
+              "compare": null,
+              "displayName": "Connect(GameTable)",
+              "type": [Function],
+            }
+          }
+          exact={true}
+          path="/"
+        />
+      </Switch>
+    </Connect(Layout)>
+  </BrowserRouter>
+</Provider>
+`;
